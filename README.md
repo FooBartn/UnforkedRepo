@@ -18,10 +18,10 @@ You'll just need a few free pieces of software.
 Install-Module Ucs-Puptr
 
 # Basic Usage Instructions
-b
-1. New-PuptrConfig -Name Test
-2. Edit the file that comes up to match your environment
-3. Invoke-PuptrTest -ConfigName Test
+
+1. Create a new Ucs-Puptr configuration file by running:  New-PuptrConfig -Name Test 
+2. Edit the newly created configuration file to match your environment. 
+3. Test the Ucs-Puptr configuration against your environment by running:  Invoke-PuptrTest -ConfigName Test 
 
 To include remediation run: Invoke-PuptrTest -ConfigName Test -Remediate
 
