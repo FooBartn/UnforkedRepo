@@ -11,7 +11,7 @@ You'll just need a few free pieces of software.
 
 1. PowerShell version 4+
 2. [Cisco UCS PowerTool 2.x+](https://communities.cisco.com/docs/DOC-37154)
-5. [Pester](https://github.com/pester/Pester)
+3. [Pester](https://github.com/pester/Pester)
 
 # Installation
 
