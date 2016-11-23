@@ -11,17 +11,17 @@ You'll just need a few free pieces of software.
 
 1. PowerShell version 4+
 2. [Cisco UCS PowerTool 2.x+](https://communities.cisco.com/docs/DOC-37154)
-5. [Pester](https://github.com/pester/Pester)
+3. [Pester](https://github.com/pester/Pester)
 
 # Installation
 
 Install-Module Ucs-Puptr
 
 # Basic Usage Instructions
-b
-1. New-PuptrConfig -Name Test
-2. Edit the file that comes up to match your environment
-3. Invoke-PuptrTest -ConfigName Test
+
+1. Create a new Ucs-Puptr configuration file by running:  New-PuptrConfig -Name Test
+2. Edit the newly created configuration file to match your environment.
+3. Test the Ucs-Puptr configuration against your environment by running:  Invoke-PuptrTest -ConfigName Test
 
 To include remediation run: Invoke-PuptrTest -ConfigName Test -Remediate
 
